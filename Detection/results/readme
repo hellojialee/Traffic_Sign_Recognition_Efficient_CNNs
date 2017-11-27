@@ -1,2 +1,2 @@
 We only trained our model on GTSDB database. 
-We evaluate the trained model on both the two benchrmarks.
+We tested the trained model on both the two benchrmarks.
