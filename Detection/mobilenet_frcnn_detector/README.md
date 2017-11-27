@@ -47,4 +47,4 @@ images (run under the mobilenet_frcnn_detecotor Directory):
 
 
 Acknowledgments:
-Code borrows heavily from [keras-frcnn] (https://raw.githubusercontent.com/KupynOrest/DeblurGAN/master/README.md)
+Code borrows heavily from [keras-frcnn] (https://github.com/yhenon/keras-frcnn)
