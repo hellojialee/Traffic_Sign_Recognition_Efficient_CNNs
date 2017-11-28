@@ -5,7 +5,7 @@ Mobilenet based traffic sign detctor
 
 NOTE:
 - We trained and evalute our detector on GTSDB dataset.
-- We evaluated the trained mobilenet detector directly on Tsingshua-Tencent 100K (no model refine )
+- We evaluated the trained mobilenet detector directly on Tsingshua-Tencent 100K (no model refinement )
 
 
 USAGE:
