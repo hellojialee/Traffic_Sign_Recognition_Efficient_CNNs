@@ -10,7 +10,7 @@ NOTE:
 
 USAGE:
 - Tensorflow backend is highly recommended.
-- `train_frcnn.py` is not released yet, we only release `train_frcnn.py` right now
+- `train_frcnn.py` is not released yet, we only release `train_frcnn.py` for now
 - Original training data format
    
    line containing:
