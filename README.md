@@ -10,4 +10,4 @@ Efficient CNNs for traffic sign recognition
   
 ### Localization refinment
   
-We show our work as three separate steps, not a complete pipline.
+We show our work as three separate steps which are easy to integrated into a complete pipeline. 
