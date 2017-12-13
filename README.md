@@ -15,6 +15,6 @@ We show our work as three separate steps which are not difficult to be integrate
 
 ![image](https://github.com/USTClj/Traffic_Sign_Recognition_Efficient_CNNs/blob/master/Detection/results/evaluation_on_GTSDB/155.png)
 
-![image](https://github.com/USTClj/Traffic_Sign_Recognition_Efficient_CNNs/blob/master/Detection/results/evaluation_examples_on_Tsinghua_Tencent_100K/13.png)
+![image](https://github.com/USTClj/Traffic_Sign_Recognition_Efficient_CNNs/blob/master/Detection/results/evaluation_examples_on_Tsinghua_Tencent_100K/114.png)
 
-![image](https://github.com/USTClj/Traffic_Sign_Recognition_Efficient_CNNs/blob/master/Detection/results/evaluation_examples_on_Tsinghua_Tencent_100K/197.png)
+![image](https://github.com/USTClj/Traffic_Sign_Recognition_Efficient_CNNs/blob/master/Detection/results/evaluation_examples_on_Tsinghua_Tencent_100K/13.png)
