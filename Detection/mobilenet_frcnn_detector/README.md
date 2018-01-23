@@ -10,7 +10,8 @@ NOTE:
 
 USAGE:
 - Tensorflow backend is highly recommended.
-- `train_frcnn.py` is not released yet, we only release `train_frcnn.py` for now.
+- `train_frcnn.py` is not released yet, we only release `test_frcnn.py` for now.
+- Only a sub-optimal network weight is provided here, considering for the future improvment in our next work.
 - Original training data format
    
    line containing:
