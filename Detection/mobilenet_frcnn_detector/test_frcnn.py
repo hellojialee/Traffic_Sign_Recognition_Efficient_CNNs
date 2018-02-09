@@ -12,8 +12,30 @@ from keras import backend as K
 from keras.layers import Input
 from keras.models import Model
 from keras_frcnn import roi_helpers
+import tensorflow as tf
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # use GTX 1080
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"  # use GTX 1080
+
+
+def get_session(gpu_fraction=0.3):
+    """
+    This function is to allocate GPU memory a specific fraction
+    Assume that you have 6GB of GPU memory and want to allocate ~2GB
+    """
+
+    num_threads = os.environ.get('OMP_NUM_THREADS')
+    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=gpu_fraction)
+
+    if num_threads:
+        return tf.Session(config=tf.ConfigProto(
+            gpu_options=gpu_options, intra_op_parallelism_threads=num_threads))
+    else:
+        return tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+
+
+K.set_session(get_session(0.3))  # using about 20% ~ ３0% of total GPU Memory　ｉs sufficient!
 
 sys.setrecursionlimit(40000)
 
