@@ -1,1 +1,2 @@
-To reproce the whole pipline based on python without any deep learning framework or GPU. 
+We will build a computer vision based system to detect traffic signs, pedestrian, vehicle　at the same time, and classify the detected traffic signs.
+Our multi-use detection network which consists of three RPNs is planed to be trained on KITTI，GTSDB databases using a new training method.
