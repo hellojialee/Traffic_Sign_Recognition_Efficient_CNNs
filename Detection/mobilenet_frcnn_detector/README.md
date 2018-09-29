@@ -50,3 +50,6 @@ images (run under the mobilenet_frcnn_detecotor Directory):
 
 Acknowledgments:
 Code borrows heavily from [keras-frcnn] (https://github.com/yhenon/keras-frcnn)
+
+An avaible pre-trained model of our detecor can be download from:
+Link: https://pan.baidu.com/s/1Wnsxdcxx8oQ-2B4xhQ08ag  Password: gnxe
